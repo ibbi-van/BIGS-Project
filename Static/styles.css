@@ -3,9 +3,13 @@ h1{
     font-family: "Sorts Mill Goudy";
     font-size: 70px;
     margin-left: 2rem;
+    text-align: center;}
+h3{
+    color: rgb(252, 5, 169);
+    font-family: "Sorts Mill Goudy";
+    font-size: 35px;
+    margin-left: 2rem;
     text-align: center;
-
-
 }
 p{
     color: #e20cc2;
@@ -16,15 +20,30 @@ p{
 }
 
 button {
-    padding: 40px 50px;
-    font-size: 40px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 0rem;
-  }
+  padding: 40px 50px;
+  font-size: 40px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  justify-content: center;    /* Horizontal alignment */
+}
+
+   .image-row {
+      display: flex;
+      justify-content: center; /* 水平置中 */
+      gap: 20px;               /* 圖片之間的間距 */
+      margin-top: 50px;
+    }
+
+    .image-row img {
+      width: 200px;            /* 圖片寬度，可依需要調整 */
+      height: auto;
+      border-radius: 10px;     /* 可選：圓角效果 */
+    } 
 
 
 p{
