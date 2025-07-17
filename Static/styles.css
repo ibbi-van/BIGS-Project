@@ -15,16 +15,6 @@ p{
     text-align: center;
 }
 
-<<<<<<< HEAD
-button{
-    padding: 10px 20px;
-    background-color: #8998ee;
-    color:rgb(225, 238, 250);
-    border:none;
-    border-radius:5px;
-    cursor: pointer;
-}
-=======
 button {
     padding: 40px 50px;
     font-size: 40px;
@@ -36,7 +26,6 @@ button {
     margin-left: 0rem;
   }
 
->>>>>>> e5015cfe591738625a442204f15706cbbdb4b549
 
 p{
     font-family: "Winky Rough";
