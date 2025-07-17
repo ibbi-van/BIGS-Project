@@ -1,16 +1,31 @@
 h1{
-    color: blue;
-    font-family: "Winky Rough";
-    font-size: 50px;
+    color: rgb(252, 5, 169);
+    font-family: "Sorts Mill Goudy";
+    font-size: 70px;
     margin-left: 2rem;
+    text-align: center;
+
 
 }
-h2{
-    color: #402e18;
+p{
+    color: #e20cc2;
     font-family: "Literata";
+    font-size: 40px;
     margin-left: 2rem;
-
+    text-align: center;
 }
+
+button {
+    padding: 40px 50px;
+    font-size: 40px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0rem;
+  }
+
 
 p{
     font-family: "Winky Rough";
@@ -25,7 +40,7 @@ img{
 }
 body{
 
-    background-color: #8998ee;
+    background-color: #e8dbb7;
     padding: 1rem 6rem;
 
 
