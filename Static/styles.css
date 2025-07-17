@@ -22,6 +22,8 @@ p{
 button {
   padding: 40px 50px;
   font-size: 40px;
+  font-family: "Sorts Mill Goudy";
+  font-weight: bold;
   background-color: #28a745;
   color: white;
   border: none;
