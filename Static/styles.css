@@ -12,6 +12,15 @@ h2{
 
 }
 
+button{
+    padding: 10px 20px;
+    background-color: #8998ee;
+    color:rgb(225, 238, 250);
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+
 p{
     font-family: "Winky Rough";
     color : #402e18;
