@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz - Question 6</title>
+
+    <style>
+        body {
+            font-family: Sorts Mill Goudy;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: #004a80;
+            color: white;
+            font-size: 1.8rem;
+            font-family: Sorts Mill Goudy;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        /* Left side: Questions */
+        .questions {
+            width: 55%;
+        }
+
+        .questions h2 {
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+            font-family: Sorts Mill Goudy;
+            color: #333;
+        }
+
+        .question-option {
+            display: block;
+            margin: 15px 0;
+            padding: 15px;
+            font-size: 1.2rem;
+            font-family: Sorts Mill Goudy;
+            background-color: #ccc;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            text-align: left;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .question-option:hover {
+            background-color: #004a80;
+            color: white;
+        }
+
+        /* Right side: Image */
+        .image-container {
+            width: 40%;
+            text-align: center;
+        }
+
+        .image-container img {
+            display: flex;
+            max-width: 160%;
+            height: 60vh;
+            margin: 30px 0;
+            border-radius: 10px;
+        }
+
+        /* Back Button */
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #ccc;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-family: Sorts Mill Goudy;
+            cursor: pointer;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #333;
+            transition: background 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #999;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="question5(9-10).html" class="back-btn">← Back</a>
+
+    <header>Question 6</header>
+
+    <div class="container">
+        <!-- Left Side: Questions -->
+        <div class="questions">
+            <h2>Which industry would you join?</h2>
+            <a href="/results.html" class="question-option">A) AI and machine learning.</a>
+            <a href="/results.html" class="question-option">B) VR entertainment.</a>
+            <a href="/results.html" class="question-option">C) Renewable Energy</a>
+            <a href="/results.html" class="question-option">D) NeuroEngineering.</a>
+            <a href="/results.html" class="question-option">E) Pharmaceutical engineering.</a>
+            <a href="/results.html" class="question-option">F) Global Robotics Development.</a>
+        </div>
+
+        <!-- Right Side: Image -->
+        <div class="image-container">
+            <img src="https://th.bing.com/th/id/OIP.IIL9DQJV8woi5t63JEcv4QHaE8?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Question Image">
+            <!-- Paste your image link inside src="" -->
+        </div>
+    </div>
+
+</body>
+
+</html>
