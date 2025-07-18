@@ -16,13 +16,69 @@
 <h1>Find the Program That Defines Your Next Chapter at CREATE <a href="https://www.engineering.utoronto.ca/">U of T</a>
 </h1>
 <p>Take this quiz to find the course that best suits you!</p>
-<p>"fast, free, future-focused"</p>
-<div class="image-row">
-  <img src="https://static.vecteezy.com/system/resources/previews/000/533/542/original/vector-lightning-bolt-icon.jpg">
-  <img src="https://betanews.com/wp-content/uploads/2016/08/Free.jpg">
-  <img src="https://img.freepik.com/premium-photo/red-dart-arrow-hitting-target-center-dartboard_135595-411.jpg">
-</div>
 <hr>
+<style>
+  body {
+    background-color: #004a80;
+    /* dark background for contrast */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+  }
+
+  .image-row img {
+    width: 200px;
+    /* increased size */
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .image-row img:hover {
+    transform: scale(1.1);
+  }
+
+  .image-labels {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    font-size: 1.6rem;
+    font-family:Winky Rough;
+    font-weight: bold;
+    color: white;
+  }
+
+  .image-labels div {
+    width: 150px;
+    /* match image width */
+    text-align: center;
+  }
+</style>
+
+<!-- Images -->
+<div class="image-row">
+  <img src="https://static.vecteezy.com/system/resources/previews/000/533/542/original/vector-lightning-bolt-icon.jpg"
+    alt="Fast">
+  <img src="https://betanews.com/wp-content/uploads/2016/08/Free.jpg" alt="Free">
+  <img src="https://img.freepik.com/premium-photo/red-dart-arrow-hitting-target-center-dartboard_135595-411.jpg"
+    alt="Future-Focused">
+</div>
+
+<!-- Labels -->
+<div class="image-labels">
+  <div>Fast</div>
+  <div>Free</div>
+  <div>Future-Focused</div>
+</div>
+
+<hr>
+<br>
+<br>
 <button onclick="window.location.href = 'page2'">START QUIZ</button>
 <br>
 <br>

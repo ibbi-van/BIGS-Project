@@ -39,7 +39,14 @@ button {
     margin: auto;
     display: block;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
+
     /* Horizontal alignment */
+}
+button:hover {
+    background-color: #ff7b00;
+    transform: scale(1.1);
+    /* 按鈕懸停時的背景色 */
 }
 
 .image-row {
@@ -77,8 +84,6 @@ body {
 
     background-color: #004a80;
     padding: 1rem 6rem;
-
-
 }
 
 hr {
