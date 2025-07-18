@@ -43,5 +43,9 @@ def quiz_questions(grade, question):
 def results():
     return render_template('results.html')
 
+@app.route('/Static/styles.css')
+def static_styles():
+    return app.send_static_file('styles.css')
+
 if __name__ == '__main__':
     app.run(debug=True)

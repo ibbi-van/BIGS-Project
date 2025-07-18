@@ -1,68 +1,79 @@
-h1{
+h1 {
     color: rgb(245, 242, 244);
     font-family: "Sorts Mill Goudy";
     font-size: 70px;
     margin-left: 2rem;
-    text-align: center;}
-h3{
+    text-align: center;
+}
+
+h3 {
     color: rgb(245, 242, 244);
     font-family: "Sorts Mill Goudy";
     font-size: 35px;
     margin-left: 2rem;
     text-align: center;
 }
-p{
+
+p {
     color: #17ed08;
     font-family: "Literata";
     font-size: 40px;
     margin-left: 2rem;
     text-align: center;
 }
-a{
+
+a {
     color: #2bdee1;
 }
 
 button {
-  padding: 40px 50px;
-  font-size: 40px;
-  font-family: "Sorts Mill Goudy";
-  font-weight: bold;
-  background-color: #2bb0e1ff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: auto;
-  display: block;
-  justify-content: center;    /* Horizontal alignment */
+    padding: 40px 50px;
+    font-size: 40px;
+    font-family: "Sorts Mill Goudy";
+    font-weight: bold;
+    background-color: #2bb0e1ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    /* Horizontal alignment */
 }
 
-   .image-row {
-      display: flex;
-      justify-content: center; /* 水平置中 */
-      gap: 20px;               /* 圖片之間的間距 */
-      margin-top: 50px;
-    }
+.image-row {
+    display: flex;
+    justify-content: center;
+    /* 水平置中 */
+    gap: 20px;
+    /* 圖片之間的間距 */
+    margin-top: 50px;
+}
 
-    .image-row img {
-      width: 200px;            /* 圖片寬度，可依需要調整 */
-      height: auto;
-      border-radius: 10px;     /* 可選：圓角效果 */
-    } 
+.image-row img {
+    width: 200px;
+    /* 圖片寬度，可依需要調整 */
+    height: auto;
+    border-radius: 10px;
+    /* 可選：圓角效果 */
+}
 
 
-p{
+p {
     font-family: "Winky Rough";
-    color : #fefdfc;
+    color: #fefdfc;
     margin-left: 3rem;
 
 }
-img{
+
+img {
     height: 500px;
-    border-radius: 10% ;
+    border-radius: 10%;
 
 }
-body{
+
+body {
 
     background-color: #004a80;
     padding: 1rem 6rem;
@@ -70,13 +81,13 @@ body{
 
 }
 
-hr{ 
+hr {
     border: 0;
     height: 0.5px;
     background: rgb(246, 247, 248);
-    margin-top:3rem;
+    margin-top: 3rem;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
