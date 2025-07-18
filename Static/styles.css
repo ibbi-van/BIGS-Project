@@ -1,22 +1,25 @@
 h1{
-    color: rgb(252, 5, 169);
+    color: rgb(245, 242, 244);
     font-family: "Sorts Mill Goudy";
     font-size: 70px;
     margin-left: 2rem;
     text-align: center;}
 h3{
-    color: rgb(252, 5, 169);
+    color: rgb(245, 242, 244);
     font-family: "Sorts Mill Goudy";
     font-size: 35px;
     margin-left: 2rem;
     text-align: center;
 }
 p{
-    color: #e20cc2;
+    color: #17ed08;
     font-family: "Literata";
     font-size: 40px;
     margin-left: 2rem;
     text-align: center;
+}
+a{
+    color: #2bdee1;
 }
 
 button {
@@ -24,7 +27,7 @@ button {
   font-size: 40px;
   font-family: "Sorts Mill Goudy";
   font-weight: bold;
-  background-color: #28a745;
+  background-color: #2bb0e1ff;
   color: white;
   border: none;
   border-radius: 5px;
@@ -50,7 +53,7 @@ button {
 
 p{
     font-family: "Winky Rough";
-    color : #402e18;
+    color : #fefdfc;
     margin-left: 3rem;
 
 }
@@ -61,7 +64,7 @@ img{
 }
 body{
 
-    background-color: #e8dbb7;
+    background-color: #004a80;
     padding: 1rem 6rem;
 
 
@@ -70,7 +73,7 @@ body{
 hr{ 
     border: 0;
     height: 0.5px;
-    background: rgb(35, 52, 183);
+    background: rgb(246, 247, 248);
     margin-top:3rem;
 }
 
