@@ -29,7 +29,19 @@ def index():
                 score[ans] += 1
         top_choice = max(score, key=score.get)
         result = course_map[top_choice]
-    return render_template('question 1(9-10).html', result=result)
+    return render_template('page1.html', result=result)
+
+@app.route('/page2')
+def page2():
+    return render_template('page2.html')
+
+@app.route('/quiz/<grade>/<question>')
+def quiz_questions(grade, question):
+    return render_template('question' + question + '(' + grade + ').html')
+
+@app.route('/results.html')
+def results():
+    return render_template('results.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
